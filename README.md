@@ -35,6 +35,8 @@ Ensure the following CSV files are present in the same directory as the script:
 
 ---
 
+### Results are shown in the Keshav_Video in the google drive link(https://drive.google.com/drive/folders/1LXAu1MvBG5appw6WjTpXIGoXUDEQWOUR?usp=sharing)
+
 ### 1. Why does the code use a dividend yield (`q`)?
 Unlike non-dividend-paying stocks where the standard Black-Scholes model applies, stock indices consist of multiple companies that pay dividends throughout the year. The continuous dividend yield accounts for the expected drop in the index value as these dividends are paid out, leading to more accurate theoretical pricing.
 
