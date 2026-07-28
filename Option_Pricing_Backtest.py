@@ -64,7 +64,7 @@ if __name__ == "__main__":
     
     # 1. Load and prep the options data
     try:
-        options = pd.read_csv("nif_options_data.csv")
+        options = pd.read_csv("nifty_options_data.csv")
     except Exception as e:
         print(f"Couldn't read options data. Error: {e}")
         exit()
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     # 2. Grab the spot price
     current_spot = None
     try:
-        index_data = pd.read_csv("nif_index_data.csv")
+        index_data = pd.read_csv("nifty_index_data.csv")
         date_col = 'HistoricalDate' if 'HistoricalDate' in index_data.columns else 'Date'
         index_data[date_col] = pd.to_datetime(index_data[date_col])
         
